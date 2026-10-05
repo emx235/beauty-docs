@@ -68,5 +68,5 @@ Furnizorul răspunde pentru prelucrarea datelor conform secțiunii 4. În rest, 
 
 Acestor termeni li se aplică legea română. Modificările se anunță pe emailul contului cu cel puțin 30 de zile înainte; continuarea folosirii aplicației după aceea înseamnă acceptare.
 
-Versiunea din 2026-10-05.
+Versiunea din 2026-10-05. Versiunea curentă este publicată și pe web, la https://emx235.github.io/beauty-docs/termeni-saloane.html.
 

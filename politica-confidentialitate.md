@@ -68,3 +68,5 @@ Aplicația se adresează persoanelor de cel puțin 16 ani. Dacă aflăm că un c
 
 Această versiune a politicii este din 2026-10-05. Când o schimbăm în mod important, îți cerem să o citești din nou la următoarea deschidere a aplicației.
 
+Versiunea curentă este publicată și pe web, la https://emx235.github.io/beauty-docs/politica-confidentialitate.html.
+
