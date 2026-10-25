@@ -1,6 +1,6 @@
 # Termenii pentru saloane
 
-Versiunea din 2026-10-05.
+Versiunea din 2026-10-25.
 
 ## 1. Părțile și obiectul
 
@@ -25,6 +25,8 @@ Salonul informează clientele despre prelucrare. Pentru clientele cu cont, infor
 Salonul nu introduce în aplicație date despre sănătate, convingeri sau alte date sensibile ale clientelor, nici în numele serviciilor, nici în numele clientelor. Motivul unei perioade blocate (de exemplu „medical”) îl privește doar pe salon și e vizibil doar lui.
 
 Salonul folosește rapoartele (cliente, neprezentări) doar pentru administrarea propriei activități, nu pentru alte scopuri.
+
+Salonul poate pune la fiecare serviciu o poză. Folosește doar poze pe care are dreptul să le publice; dacă într-o poză apare o persoană, salonul are nevoie de acordul ei și o scoate dacă persoana îl retrage. Pozele sunt vizibile clientelor salonului și se șterg odată cu serviciul sau cu salonul.
 
 ## 4. Acordul de prelucrare a datelor (art. 28 GDPR)
 
@@ -68,5 +70,5 @@ Furnizorul răspunde pentru prelucrarea datelor conform secțiunii 4. În rest, 
 
 Acestor termeni li se aplică legea română. Modificările se anunță pe emailul contului cu cel puțin 30 de zile înainte; continuarea folosirii aplicației după aceea înseamnă acceptare.
 
-Versiunea din 2026-10-05. Versiunea curentă este publicată și pe web, la https://emx235.github.io/beauty-docs/termeni-saloane.html.
+Versiunea din 2026-10-25. Versiunea curentă este publicată și pe web, la https://emx235.github.io/beauty-docs/termeni-saloane.html.
 

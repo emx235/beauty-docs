@@ -1,6 +1,6 @@
 # Politica de confidențialitate
 
-Versiunea din 2026-10-05.
+Versiunea din 2026-10-25.
 
 ## Pe scurt
 
@@ -25,6 +25,8 @@ Programările tale: serviciul, data și ora, durata, prețul din momentul rezerv
 Dacă salonul notează o programare luată la telefon, scrie numele și telefonul tău în evidența lui. Dacă ai cont, salonul o poate lega de contul tău, ca să o vezi și tu în aplicație.
 
 Pentru administratoarele de salon, în plus: numele salonului, orașul, telefonul de contact, CUI-ul și numărul de la Registrul Comerțului, verificate la înregistrare prin serviciul public al ANAF.
+
+Salonul poate pune poze ale serviciilor lui. Dacă într-o poză apari tu, salonul are nevoie de acordul tău; îl poți retrage oricând, cerându-i salonului sau scriindu-ne la emericmark81@gmail.com, iar poza se scoate. Pozele se șterg odată cu serviciul sau cu salonul.
 
 Nu colectăm date de localizare, nu citim contactele telefonului și nu folosim servicii de publicitate sau de analiză a comportamentului.
 
@@ -66,7 +68,7 @@ Aplicația se adresează persoanelor de cel puțin 16 ani. Dacă aflăm că un c
 
 ## Modificări
 
-Această versiune a politicii este din 2026-10-05. Când o schimbăm în mod important, îți cerem să o citești din nou la următoarea deschidere a aplicației.
+Această versiune a politicii este din 2026-10-25. Când o schimbăm în mod important, îți cerem să o citești din nou la următoarea deschidere a aplicației.
 
 Versiunea curentă este publicată și pe web, la https://emx235.github.io/beauty-docs/politica-confidentialitate.html.
 
