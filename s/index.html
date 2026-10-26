@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Invitație la salon</title>
+  <meta name="robots" content="noindex">
+  <style>
+    :root {
+      --fundal: #FBF5F3; --card: #FFFFFF; --text: #3A2530;
+      --secundar: #7A6168; --primar: #9C4A5C; --pe-primar: #FFFFFF;
+      --contur: #EBD9DC;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fundal: #17131A; --card: #221C25; --text: #F3EDE6;
+        --secundar: #B3A7AF; --primar: #D9B88F; --pe-primar: #17131A;
+        --contur: #2E2633;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; display: grid; place-items: center;
+      background: var(--fundal); color: var(--text);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      padding: 16px;
+    }
+    main {
+      width: 100%; max-width: 420px; background: var(--card);
+      border: 1px solid var(--contur); border-radius: 22px; padding: 28px 24px;
+      text-align: center;
+    }
+    h1 { font-family: Georgia, "Times New Roman", serif; font-weight: 600;
+         font-size: 30px; margin: 0 0 8px; }
+    p { color: var(--secundar); line-height: 1.5; margin: 0 0 20px; }
+    a.buton {
+      display: block; padding: 14px 20px; border-radius: 999px;
+      text-decoration: none; font-weight: 700; margin-top: 12px;
+      min-height: 48px;
+    }
+    .principal { background: var(--primar); color: var(--pe-primar); }
+    .secundar { border: 1px solid var(--contur); color: var(--primar); }
+    .nota { font-size: 13px; margin-top: 20px; }
+    .eroare { color: #B3261E; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Bine ai venit</h1>
+    <p id="mesaj">Salonul tău te invită să îți faci programările din aplicație.</p>
+    <a class="buton principal" id="deschide" href="#">Deschide în aplicație</a>
+    <!-- [LINK GOOGLE PLAY]: se completeaza dupa publicarea in Google Play. -->
+    <a class="buton secundar" id="descarca" href="#"
+       aria-disabled="true">Descarcă aplicația</a>
+    <p class="nota" id="nota">Dacă aplicația e deja instalată, „Deschide în
+      aplicație” te duce direct la crearea contului, cu salonul ales.</p>
+  </main>
+  <script>
+    // Linkul: https://emx235.github.io/beauty-docs/s/?id={salonId}
+    // (lib/core/invitatie.dart). Id-ul e un uid Firebase: litere si cifre.
+    var id = new URLSearchParams(location.search).get('id') || '';
+    var valid = /^[A-Za-z0-9]{1,128}$/.test(id);
+    var deschide = document.getElementById('deschide');
+    if (!valid) {
+      document.getElementById('mesaj').textContent =
+        'Linkul de invitație nu e complet. Cere salonului linkul din nou.';
+      document.getElementById('mesaj').className = 'eroare';
+      deschide.style.display = 'none';
+    } else {
+      var pagina = 'emx235.github.io/beauty-docs/s/?id=' + encodeURIComponent(id);
+      // Pe Android, un „intent:" porneste aplicatia cu acest link chiar si
+      // fara App Links verificate.
+      deschide.href = /Android/i.test(navigator.userAgent)
+        ? 'intent://' + pagina + '#Intent;scheme=https;package=ro.emericmark.beauty;end'
+        : 'https://' + pagina;
+    }
+    document.getElementById('descarca').addEventListener('click', function (e) {
+      e.preventDefault();
+      document.getElementById('nota').textContent =
+        'Aplicația va fi în curând în Google Play. Până atunci, cere salonului '
+        + 'linkul de instalare.';
+    });
+  </script>
+</body>
+</html>
