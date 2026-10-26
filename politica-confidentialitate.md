@@ -1,6 +1,6 @@
 # Politica de confidențialitate
 
-Versiunea din 2026-10-25.
+Versiunea din 2026-10-26.
 
 ## Pe scurt
 
@@ -38,17 +38,21 @@ Ca salonul să își țină evidența: încasări pe perioade, servicii cerute, 
 
 Reamintirile înainte de programare și evenimentele din calendar se fac local, pe telefonul tău, și nu pleacă nicăieri.
 
+SMS-urile de confirmare, anulare și reamintire, dacă salonul le folosește, țin de programarea pe care ai cerut-o. Dacă nu vrei să le primești, spune-i salonului.
+
 ## Unde sunt stocate
 
 Datele stau în Google Firebase, în centrul de date din Belgia (regiunea europe-west1, Uniunea Europeană). Datele de autentificare (email, parolă criptată) sunt păstrate de Google Firebase Authentication, care poate stoca în Statele Unite; transferul este acoperit de clauzele contractuale standard ale Comisiei Europene și de cadrul UE–SUA pentru protecția datelor, la care Google este certificat.
 
-Google acționează ca sub-împuternicit, în baza Termenilor de prelucrare a datelor Google Cloud. Nu transmitem datele niciunui alt terț.
+Google acționează ca sub-împuternicit, în baza Termenilor de prelucrare a datelor Google Cloud. Nu transmitem datele niciunui alt terț, cu o singură excepție, aleasă de salonul tău: dacă salonul trimite SMS-uri, furnizorul de SMS ales de el primește numele salonului, numărul tău de telefon și textul mesajului (confirmarea, anularea sau reamintirea programării). Salonul are contract direct cu acest furnizor, care lucrează pentru salon.
 
 ## Cât timp le păstrăm
 
 Contul: până îl ștergi. Programările: 3 ani de la data lor, după care se șterg automat.
 
 Când îți ștergi contul, programările viitoare se anulează, iar cele trecute rămân în evidența salonului fără nume, fără telefon și fără legătură cu tine, ca „Clientă ștearsă”: salonul își păstrează istoricul încasărilor, dar nu mai știe cine ai fost.
+
+Urma SMS-urilor (ce mesaj a plecat și când, fără textul lui) se păstrează 12 luni.
 
 ## Drepturile tale
 
@@ -68,7 +72,7 @@ Aplicația se adresează persoanelor de cel puțin 16 ani. Dacă aflăm că un c
 
 ## Modificări
 
-Această versiune a politicii este din 2026-10-25. Când o schimbăm în mod important, îți cerem să o citești din nou la următoarea deschidere a aplicației.
+Această versiune a politicii este din 2026-10-26. Când o schimbăm în mod important, îți cerem să o citești din nou la următoarea deschidere a aplicației.
 
 Versiunea curentă este publicată și pe web, la https://emx235.github.io/beauty-docs/politica-confidentialitate.html.
 

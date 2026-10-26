@@ -1,6 +1,6 @@
 # Termenii pentru saloane
 
-Versiunea din 2026-10-25.
+Versiunea din 2026-10-26.
 
 ## 1. Părțile și obiectul
 
@@ -28,11 +28,13 @@ Salonul folosește rapoartele (cliente, neprezentări) doar pentru administrarea
 
 Salonul poate pune la fiecare serviciu o poză. Folosește doar poze pe care are dreptul să le publice; dacă într-o poză apare o persoană, salonul are nevoie de acordul ei și o scoate dacă persoana îl retrage. Pozele sunt vizibile clientelor salonului și se șterg odată cu serviciul sau cu salonul.
 
+Dacă folosește SMS-urile, salonul își alege furnizorul de SMS, încheie contract direct cu el și îl plătește. Acel furnizor este persoana împuternicită a salonului, nu a furnizorului aplicației. Salonul le informează pe cliente că primesc mesaje prin el și ține seama de clientele care nu le vor.
+
 ## 4. Acordul de prelucrare a datelor (art. 28 GDPR)
 
 Obiectul și durata: prelucrarea datelor necesare funcționării aplicației pentru salon, pe toată durata existenței contului salonului.
 
-Natura și scopul: stocarea și afișarea programărilor, a conturilor clientelor salonului, a registrului de cliente, a cartelei de fidelitate și a rapoartelor, exclusiv pentru ca salonul să își administreze programările.
+Natura și scopul: stocarea și afișarea programărilor, a conturilor clientelor salonului, a registrului de cliente, a cartelei de fidelitate și a rapoartelor și, dacă salonul le pornește, trimiterea SMS-urilor de confirmare, anulare și reamintire, exclusiv pentru ca salonul să își administreze programările.
 
 Categoriile de date: nume, email, telefon, programări (serviciu, dată, oră, preț, stare), recompense de fidelitate. Persoanele vizate: clientele salonului, cu sau fără cont, și administratoarea.
 
@@ -41,6 +43,8 @@ Furnizorul prelucrează datele doar conform instrucțiunilor salonului. Instruc�
 Furnizorul păstrează confidențialitatea și aplică măsuri de securitate: izolarea datelor fiecărui salon prin reguli de acces verificate pe server, confirmarea adresei de email la înregistrare, criptarea datelor în tranzit și în repaus (asigurată de Google), fără acces al unui salon la datele altui salon și fără acces al salonului la conturile clientelor dincolo de nume și telefon.
 
 Sub-împuternicit: Google Ireland Limited (Firebase: Firestore în regiunea europe-west1, Belgia; Authentication, cu posibilă stocare în Statele Unite, în baza clauzelor contractuale standard și a cadrului UE–SUA pentru protecția datelor). Salonul autorizează acest sub-împuternicit. Furnizorul anunță salonul, prin email, cu cel puțin 30 de zile înainte de a adăuga sau schimba un sub-împuternicit; salonul se poate opune încetând utilizarea aplicației.
+
+SMS-uri: aplicația transmite, din contul salonului și cu datele lui de acces, numele salonului, telefonul clientei și textul mesajului către furnizorul de SMS ales de salon. Furnizorul aplicației nu primește și nu păstrează mesajele; în contul salonului rămâne doar urma fiecărui SMS (programarea, tipul, starea), 12 luni.
 
 Asistență: furnizorul ajută salonul să răspundă cererilor persoanelor vizate. Accesul și ștergerea sunt disponibile direct în aplicație („Descarcă datele mele”, „Șterge contul”); pentru restul, salonul scrie la emericmark81@gmail.com.
 
@@ -70,5 +74,5 @@ Furnizorul răspunde pentru prelucrarea datelor conform secțiunii 4. În rest, 
 
 Acestor termeni li se aplică legea română. Modificările se anunță pe emailul contului cu cel puțin 30 de zile înainte; continuarea folosirii aplicației după aceea înseamnă acceptare.
 
-Versiunea din 2026-10-25. Versiunea curentă este publicată și pe web, la https://emx235.github.io/beauty-docs/termeni-saloane.html.
+Versiunea din 2026-10-26. Versiunea curentă este publicată și pe web, la https://emx235.github.io/beauty-docs/termeni-saloane.html.
 
