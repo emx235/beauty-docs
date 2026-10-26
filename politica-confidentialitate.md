@@ -1,16 +1,16 @@
 # Politica de confidențialitate
 
-Versiunea din 2026-10-27.
+Versiunea din 2026-10-28.
 
 ## Pe scurt
 
-Aplicația te ajută să îți faci programări la salonul tău. Pentru asta are nevoie de numele tău, de adresa de email și, dacă vrei, de numărul de telefon. Salonul la care te programezi vede aceste date și programările tale; nimeni altcineva nu le primește.
+Aplicația te ajută să îți faci programări la saloanele tale, unul sau mai multe, pe același cont. Pentru asta are nevoie de numele tău, de adresa de email și, dacă vrei, de numărul de telefon. Fiecare salon la care te înscrii vede aceste date și programările făcute la el. Nu vede celelalte saloane ale tale și nici programările de acolo. Nimeni altcineva nu le primește.
 
 Îți poți descărca datele și îți poți șterge contul oricând, direct din aplicație, din Profil.
 
 ## Cine răspunde de datele tale
 
-Salonul la care îți faci cont este operatorul datelor tale: el decide pentru ce le folosește, în cadrul relației voastre de client–salon. Numele, orașul și telefonul salonului apar în aplicație, în Profil.
+Fiecare salon la care te înscrii este operatorul datelor tale de la el: el decide pentru ce le folosește, în cadrul relației voastre de client–salon. Saloanele tale apar în aplicație, în Profil → „Saloanele mele”.
 
 Furnizorul aplicației este Mark Emeric, persoană fizică, care prelucrează datele în numele salonului, ca persoană împuternicită. Pentru contul unei administratoare de salon, Mark Emeric este operator.
 
@@ -18,7 +18,9 @@ Pentru orice întrebare sau cerere legată de datele tale ne poți scrie la emer
 
 ## Ce date prelucrăm
 
-Contul tău: adresa de email, numele, numărul de telefon (opțional), parola (păstrată doar criptat, de Google Firebase), data creării contului și salonul ales.
+Contul tău: adresa de email, numele, numărul de telefon (opțional), parola (păstrată doar criptat, de Google Firebase), data creării contului și lista saloanelor tale, pe care o vezi doar tu.
+
+Când adaugi un salon, îți cerem confirmarea: salonul primește numele și telefonul tău. Când îl părăsești, nu te mai găsește în lista lui de cliente, iar programările trecute rămân în evidența lui.
 
 Programările tale: serviciul, data și ora, durata, prețul din momentul rezervării, starea (în așteptare, confirmată, finalizată, anulată, neprezentare) și eventuala recompensă de fidelitate.
 
@@ -52,7 +54,7 @@ Google acționează ca sub-împuternicit, în baza Termenilor de prelucrare a da
 
 Contul: până îl ștergi. Programările: 3 ani de la data lor, după care se șterg automat.
 
-Când îți ștergi contul, programările viitoare se anulează, iar cele trecute rămân în evidența salonului fără nume, fără telefon și fără legătură cu tine, ca „Clientă ștearsă”: salonul își păstrează istoricul încasărilor, dar nu mai știe cine ai fost.
+Când îți ștergi contul, programările viitoare se anulează, iar cele trecute rămân în evidența fiecărui salon fără nume, fără telefon și fără legătură cu tine, ca „Clientă ștearsă”: salonul își păstrează istoricul încasărilor, dar nu mai știe cine ai fost.
 
 Urma SMS-urilor (ce mesaj a plecat și când, fără textul lui) se păstrează 12 luni.
 
@@ -74,7 +76,7 @@ Aplicația se adresează persoanelor de cel puțin 16 ani. Dacă aflăm că un c
 
 ## Modificări
 
-Această versiune a politicii este din 2026-10-27. Când o schimbăm în mod important, îți cerem să o citești din nou la următoarea deschidere a aplicației.
+Această versiune a politicii este din 2026-10-28. Când o schimbăm în mod important, îți cerem să o citești din nou la următoarea deschidere a aplicației.
 
 Versiunea curentă este publicată și pe web, la https://emx235.github.io/beauty-docs/politica-confidentialitate.html.
 
