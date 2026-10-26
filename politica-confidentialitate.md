@@ -1,6 +1,6 @@
 # Politica de confidențialitate
 
-Versiunea din 2026-10-26.
+Versiunea din 2026-10-27.
 
 ## Pe scurt
 
@@ -24,9 +24,11 @@ Programările tale: serviciul, data și ora, durata, prețul din momentul rezerv
 
 Dacă salonul notează o programare luată la telefon, scrie numele și telefonul tău în evidența lui. Dacă ai cont, salonul o poate lega de contul tău, ca să o vezi și tu în aplicație.
 
-Pentru administratoarele de salon, în plus: numele salonului, orașul, telefonul de contact, CUI-ul și numărul de la Registrul Comerțului, verificate la înregistrare prin serviciul public al ANAF.
+Pentru administratoarele de salon, în plus: numele salonului, orașul, adresa, descrierea, telefonul de contact, CUI-ul și numărul de la Registrul Comerțului (acestea două verificate la înregistrare prin serviciul public al ANAF). Numele, orașul, adresa, telefonul și descrierea salonului, împreună cu serviciile active, prețurile și pozele lor și programul de lucru, sunt publice: le vede oricine caută un salon în aplicație, chiar și fără cont. Salonul poate alege să nu apară în căutare, din „Profilul salonului”. CUI-ul, numărul de la Registrul Comerțului și programările nu sunt publice.
 
-Salonul poate pune poze ale serviciilor lui. Dacă într-o poză apari tu, salonul are nevoie de acordul tău; îl poți retrage oricând, cerându-i salonului sau scriindu-ne la emericmark81@gmail.com, iar poza se scoate. Pozele se șterg odată cu serviciul sau cu salonul.
+Salonul poate pune poze ale serviciilor lui. Pozele serviciilor active sunt publice, ca restul ofertei: le vede oricine caută salonul, chiar și fără cont. Dacă într-o poză apari tu, salonul are nevoie de acordul tău; îl poți retrage oricând, cerându-i salonului sau scriindu-ne la emericmark81@gmail.com, iar poza se scoate. Pozele se șterg odată cu serviciul sau cu salonul.
+
+Dacă folosești aplicația fără cont, doar ca să cauți un salon, aplicația nu îți cere și nu păstrează nicio dată despre tine.
 
 Nu colectăm date de localizare, nu citim contactele telefonului și nu folosim servicii de publicitate sau de analiză a comportamentului.
 
@@ -72,7 +74,7 @@ Aplicația se adresează persoanelor de cel puțin 16 ani. Dacă aflăm că un c
 
 ## Modificări
 
-Această versiune a politicii este din 2026-10-26. Când o schimbăm în mod important, îți cerem să o citești din nou la următoarea deschidere a aplicației.
+Această versiune a politicii este din 2026-10-27. Când o schimbăm în mod important, îți cerem să o citești din nou la următoarea deschidere a aplicației.
 
 Versiunea curentă este publicată și pe web, la https://emx235.github.io/beauty-docs/politica-confidentialitate.html.
 

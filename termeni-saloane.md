@@ -1,12 +1,12 @@
 # Termenii pentru saloane
 
-Versiunea din 2026-10-26.
+Versiunea din 2026-10-27.
 
 ## 1. Părțile și obiectul
 
 Acești termeni se încheie între Mark Emeric, persoană fizică („furnizorul”, contact: emericmark81@gmail.com), și salonul care își creează cont în aplicație, reprezentat de persoana care îl înregistrează („salonul”).
 
-Furnizorul pune la dispoziția salonului aplicația de programări: calendarul, oferta de servicii, rezervările clientelor, programările notate la telefon, perioadele blocate, cartela de fidelitate și rapoartele. Condițiile financiare, dacă există, se stabilesc separat, în scris.
+Furnizorul pune la dispoziția salonului aplicația de programări: calendarul, oferta de servicii, rezervările clientelor, programările notate la telefon, perioadele blocate, cartela de fidelitate, rapoartele, linkul și codul QR de invitație și pagina publică a salonului din căutare. Condițiile financiare, dacă există, se stabilesc separat, în scris.
 
 Acceptarea termenilor se face prin bifa de la înregistrarea salonului. Versiunea acceptată se păstrează în contul salonului.
 
@@ -15,6 +15,8 @@ Acceptarea termenilor se face prin bifa de la înregistrarea salonului. Versiune
 Un salon se înregistrează cu CUI-ul firmei, verificat la ANAF. Un CUI poate avea un singur salon în aplicație; persoana care îl înregistrează declară că are dreptul să reprezinte firma. Furnizorul poate șterge un salon înregistrat abuziv pe CUI-ul altei firme, la cererea documentată a acesteia.
 
 Salonul răspunde de tot ce se introduce din contul lui: serviciile, prețurile, programul, programările notate la telefon și numele și telefoanele persoanelor fără cont. Parola contului nu se transmite altcuiva.
+
+Profilul salonului este public: numele, orașul, adresa, telefonul de contact, descrierea, categoriile, serviciile active cu prețurile și pozele lor și programul de lucru le vede oricine caută un salon în aplicație, chiar și fără cont. Salonul nu trece aici date pe care nu vrea să le facă publice, de exemplu adresa de domiciliu, dacă lucrează acasă. Salonul poate ieși oricând din căutare („Profilul salonului” → „Apare în căutarea saloanelor”). Datele lui publice rămân totuși accesibile celor care au linkul lui de invitație. Programările, clientele, orele libere, datele firmei și setările rămân private.
 
 ## 3. Salonul ca operator
 
@@ -26,7 +28,7 @@ Salonul nu introduce în aplicație date despre sănătate, convingeri sau alte 
 
 Salonul folosește rapoartele (cliente, neprezentări) doar pentru administrarea propriei activități, nu pentru alte scopuri.
 
-Salonul poate pune la fiecare serviciu o poză. Folosește doar poze pe care are dreptul să le publice; dacă într-o poză apare o persoană, salonul are nevoie de acordul ei și o scoate dacă persoana îl retrage. Pozele sunt vizibile clientelor salonului și se șterg odată cu serviciul sau cu salonul.
+Salonul poate pune la fiecare serviciu o poză. Folosește doar poze pe care are dreptul să le publice; dacă într-o poză apare o persoană, salonul are nevoie de acordul ei și o scoate dacă persoana îl retrage. Pozele serviciilor active sunt publice, ca restul ofertei, și se șterg odată cu serviciul sau cu salonul.
 
 Dacă folosește SMS-urile, salonul își alege furnizorul de SMS, încheie contract direct cu el și îl plătește. Acel furnizor este persoana împuternicită a salonului, nu a furnizorului aplicației. Salonul le informează pe cliente că primesc mesaje prin el și ține seama de clientele care nu le vor.
 
@@ -74,5 +76,5 @@ Furnizorul răspunde pentru prelucrarea datelor conform secțiunii 4. În rest, 
 
 Acestor termeni li se aplică legea română. Modificările se anunță pe emailul contului cu cel puțin 30 de zile înainte; continuarea folosirii aplicației după aceea înseamnă acceptare.
 
-Versiunea din 2026-10-26. Versiunea curentă este publicată și pe web, la https://emx235.github.io/beauty-docs/termeni-saloane.html.
+Versiunea din 2026-10-27. Versiunea curentă este publicată și pe web, la https://emx235.github.io/beauty-docs/termeni-saloane.html.
 
