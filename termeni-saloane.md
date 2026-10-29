@@ -1,6 +1,6 @@
 # Termenii pentru saloane
 
-Versiunea din 2026-10-28.
+Versiunea din 2026-10-29.
 
 ## 1. Părțile și obiectul
 
@@ -18,6 +18,8 @@ Salonul răspunde de tot ce se introduce din contul lui: serviciile, prețurile,
 
 Profilul salonului este public: numele, orașul, adresa, telefonul de contact, descrierea, categoriile, serviciile active cu prețurile și pozele lor și programul de lucru le vede oricine caută un salon în aplicație, chiar și fără cont. Salonul nu trece aici date pe care nu vrea să le facă publice, de exemplu adresa de domiciliu, dacă lucrează acasă. Salonul poate ieși oricând din căutare („Profilul salonului” → „Apare în căutarea saloanelor”). Datele lui publice rămân totuși accesibile celor care au linkul lui de invitație. Programările, clientele, orele libere, datele firmei și setările rămân private.
 
+Echipa: salonul poate trece în aplicație specialiștii care lucrează la el, cu programul, concediile și serviciile fiecăruia. Numele specialiștilor activi sunt publice, ca restul ofertei; salonul trece pentru fiecare doar numele cu care acesta a acceptat să apară (de exemplu, doar prenumele).
+
 ## 3. Salonul ca operator
 
 Pentru datele clientelor lui, salonul este operator în sensul GDPR: el decide de ce și cum le folosește. Furnizorul le prelucrează în numele salonului, ca persoană împuternicită, conform secțiunii 4.
@@ -32,19 +34,21 @@ Salonul poate pune la fiecare serviciu o poză. Folosește doar poze pe care are
 
 Dacă folosește SMS-urile, salonul își alege furnizorul de SMS, încheie contract direct cu el și îl plătește. Acel furnizor este persoana împuternicită a salonului, nu a furnizorului aplicației. Salonul le informează pe cliente că primesc mesaje prin el și ține seama de clientele care nu le vor.
 
+Salonul își poate invita specialiștii să își facă cont în aplicație. Un specialist cu cont vede doar programările făcute la el, cu numele și telefonul clientelor respective. Salonul răspunde de cine invită, se asigură că specialiștii păstrează confidențialitatea acestor date și le scoate accesul („Scoate accesul” sau retragerea din echipă) când nu mai lucrează la salon. Pentru datele specialiștilor din aplicație, salonul este operator.
+
 O clientă poate folosi același cont la mai multe saloane. Fiecare salon vede doar datele ei de la el: numele, telefonul și programările făcute la el. Nu află la ce alte saloane mai merge. Clienta se înscrie singură la un salon, după ce confirmă că salonul îi va vedea numele și telefonul, și îl poate părăsi oricând.
 
 ## 4. Acordul de prelucrare a datelor (art. 28 GDPR)
 
 Obiectul și durata: prelucrarea datelor necesare funcționării aplicației pentru salon, pe toată durata existenței contului salonului.
 
-Natura și scopul: stocarea și afișarea programărilor, a conturilor clientelor salonului, a registrului de cliente, a cartelei de fidelitate și a rapoartelor și, dacă salonul le pornește, trimiterea SMS-urilor de confirmare, anulare și reamintire, exclusiv pentru ca salonul să își administreze programările.
+Natura și scopul: stocarea și afișarea programărilor, a conturilor clientelor salonului, a registrului de cliente, a echipei și a conturilor specialiștilor, a cartelei de fidelitate și a rapoartelor și, dacă salonul le pornește, trimiterea SMS-urilor de confirmare, anulare și reamintire, exclusiv pentru ca salonul să își administreze programările.
 
-Categoriile de date: nume, email, telefon, programări (serviciu, dată, oră, preț, stare), recompense de fidelitate. Persoanele vizate: clientele salonului, cu sau fără cont, și administratoarea.
+Categoriile de date: nume, email, telefon, programări (serviciu, dată, oră, preț, stare), recompense de fidelitate. Persoanele vizate: clientele salonului, cu sau fără cont, specialiștii salonului și administratoarea.
 
 Furnizorul prelucrează datele doar conform instrucțiunilor salonului. Instrucțiunile sunt funcțiile aplicației așa cum sunt descrise în acești termeni; furnizorul nu accesează datele salonului decât pentru a remedia o problemă tehnică, la cererea salonului sau pentru a răspunde unei obligații legale.
 
-Furnizorul păstrează confidențialitatea și aplică măsuri de securitate: izolarea datelor fiecărui salon prin reguli de acces verificate pe server, confirmarea adresei de email la înregistrare, criptarea datelor în tranzit și în repaus (asigurată de Google), fără acces al unui salon la datele altui salon și fără acces al salonului la conturile clientelor dincolo de nume și telefon.
+Furnizorul păstrează confidențialitatea și aplică măsuri de securitate: izolarea datelor fiecărui salon prin reguli de acces verificate pe server, confirmarea adresei de email la înregistrare, criptarea datelor în tranzit și în repaus (asigurată de Google), fără acces al unui salon la datele altui salon, fără acces al salonului la conturile clientelor dincolo de nume și telefon și cu acces al fiecărui specialist doar la programările lui.
 
 Sub-împuternicit: Google Ireland Limited (Firebase: Firestore în regiunea europe-west1, Belgia; Authentication, cu posibilă stocare în Statele Unite, în baza clauzelor contractuale standard și a cadrului UE–SUA pentru protecția datelor). Salonul autorizează acest sub-împuternicit. Furnizorul anunță salonul, prin email, cu cel puțin 30 de zile înainte de a adăuga sau schimba un sub-împuternicit; salonul se poate opune încetând utilizarea aplicației.
 
@@ -78,5 +82,5 @@ Furnizorul răspunde pentru prelucrarea datelor conform secțiunii 4. În rest, 
 
 Acestor termeni li se aplică legea română. Modificările se anunță pe emailul contului cu cel puțin 30 de zile înainte; continuarea folosirii aplicației după aceea înseamnă acceptare.
 
-Versiunea din 2026-10-28. Versiunea curentă este publicată și pe web, la https://emx235.github.io/beauty-docs/termeni-saloane.html.
+Versiunea din 2026-10-29. Versiunea curentă este publicată și pe web, la https://emx235.github.io/beauty-docs/termeni-saloane.html.
 

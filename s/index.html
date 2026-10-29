@@ -58,8 +58,17 @@
   <script>
     // Linkul: https://emx235.github.io/beauty-docs/s/?id={salonId}
     // (lib/core/invitatie.dart). Id-ul e un uid Firebase: litere si cifre.
-    var id = new URLSearchParams(location.search).get('id') || '';
+    // Cu &echipa={cod}: invitatia unui specialist in echipa salonului
+    // (docs/specialisti.md) - codul trebuie dus mai departe, in aplicatie.
+    var parametri = new URLSearchParams(location.search);
+    var id = parametri.get('id') || '';
+    var echipa = parametri.get('echipa') || '';
     var valid = /^[A-Za-z0-9]{1,128}$/.test(id);
+    var inEchipa = /^[A-Za-z0-9]{12,40}$/.test(echipa);
+    if (inEchipa) {
+      document.getElementById('mesaj').textContent =
+        'Salonul te invită în echipă: în aplicație vei vedea programările tale.';
+    }
     var deschide = document.getElementById('deschide');
     if (!valid) {
       document.getElementById('mesaj').textContent =
@@ -67,7 +76,8 @@
       document.getElementById('mesaj').className = 'eroare';
       deschide.style.display = 'none';
     } else {
-      var pagina = 'emx235.github.io/beauty-docs/s/?id=' + encodeURIComponent(id);
+      var pagina = 'emx235.github.io/beauty-docs/s/?id=' + encodeURIComponent(id)
+        + (inEchipa ? '&echipa=' + encodeURIComponent(echipa) : '');
       // Pe Android, un „intent:" porneste aplicatia cu acest link chiar si
       // fara App Links verificate.
       deschide.href = /Android/i.test(navigator.userAgent)

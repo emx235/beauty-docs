@@ -1,10 +1,10 @@
 # Politica de confidențialitate
 
-Versiunea din 2026-10-28.
+Versiunea din 2026-10-29.
 
 ## Pe scurt
 
-Aplicația te ajută să îți faci programări la saloanele tale, unul sau mai multe, pe același cont. Pentru asta are nevoie de numele tău, de adresa de email și, dacă vrei, de numărul de telefon. Fiecare salon la care te înscrii vede aceste date și programările făcute la el. Nu vede celelalte saloane ale tale și nici programările de acolo. Nimeni altcineva nu le primește.
+Aplicația te ajută să îți faci programări la saloanele tale, unul sau mai multe, pe același cont. Pentru asta are nevoie de numele tău, de adresa de email și, dacă vrei, de numărul de telefon. Fiecare salon la care te înscrii vede aceste date și programările făcute la el. Nu vede celelalte saloane ale tale și nici programările de acolo. Dacă salonul are o echipă, specialistul la care te programezi vede programarea ta, cu numele și telefonul tău. Nimeni altcineva nu le primește.
 
 Îți poți descărca datele și îți poți șterge contul oricând, direct din aplicație, din Profil.
 
@@ -12,7 +12,7 @@ Aplicația te ajută să îți faci programări la saloanele tale, unul sau mai 
 
 Fiecare salon la care te înscrii este operatorul datelor tale de la el: el decide pentru ce le folosește, în cadrul relației voastre de client–salon. Saloanele tale apar în aplicație, în Profil → „Saloanele mele”.
 
-Furnizorul aplicației este Mark Emeric, persoană fizică, care prelucrează datele în numele salonului, ca persoană împuternicită. Pentru contul unei administratoare de salon, Mark Emeric este operator.
+Furnizorul aplicației este Mark Emeric, persoană fizică, care prelucrează datele în numele salonului, ca persoană împuternicită. Pentru contul unei administratoare de salon, Mark Emeric este operator. Pentru contul unui specialist din echipa unui salon, operator este salonul care l-a invitat, iar Mark Emeric prelucrează datele în numele lui.
 
 Pentru orice întrebare sau cerere legată de datele tale ne poți scrie la emericmark81@gmail.com. Răspundem în cel mult o lună.
 
@@ -23,6 +23,10 @@ Contul tău: adresa de email, numele, numărul de telefon (opțional), parola (p
 Când adaugi un salon, îți cerem confirmarea: salonul primește numele și telefonul tău. Când îl părăsești, nu te mai găsește în lista lui de cliente, iar programările trecute rămân în evidența lui.
 
 Programările tale: serviciul, data și ora, durata, prețul din momentul rezervării, starea (în așteptare, confirmată, finalizată, anulată, neprezentare) și eventuala recompensă de fidelitate.
+
+Dacă salonul are mai mulți specialiști, programarea păstrează și cine o face. Numele specialiștilor activi, așa cum le-a scris salonul, sunt publice, ca restul ofertei. Un specialist cu cont în aplicație vede doar programările făcute la el: numele și telefonul tău, serviciile, data, ora și starea. Nu vede celelalte programări ale tale și nici lista clientelor salonului.
+
+Pentru specialiștii cu cont, în plus: adresa de email, numele, telefonul (opțional), salonul și locul în echipă, programul și concediile stabilite de salon. Clientele văd doar orele libere ale fiecărui specialist, nu și motivul unui concediu.
 
 Dacă salonul notează o programare luată la telefon, scrie numele și telefonul tău în evidența lui. Dacă ai cont, salonul o poate lega de contul tău, ca să o vezi și tu în aplicație.
 
@@ -58,9 +62,11 @@ Când îți ștergi contul, programările viitoare se anulează, iar cele trecut
 
 Urma SMS-urilor (ce mesaj a plecat și când, fără textul lui) se păstrează 12 luni.
 
+Contul unui specialist: până îl șterge. Când salonul îi scoate accesul sau îl retrage din echipă, contul nu mai vede nimic din salon, iar specialistul îl poate șterge din aplicație. Numele lui rămâne pe programările trecute, în evidența salonului.
+
 ## Drepturile tale
 
-Acces și portabilitate: din Profil, „Descarcă datele mele” îți dă un fișier cu tot ce știe aplicația despre tine.
+Acces și portabilitate: din Profil, „Descarcă datele mele” îți dă un fișier cu tot ce știe aplicația despre tine. Specialiștii cer datele contului lor scriindu-ne.
 
 Rectificare: numele și telefonul le schimbi din Profil. Pentru adresa de email, scrie-ne.
 
@@ -76,7 +82,7 @@ Aplicația se adresează persoanelor de cel puțin 16 ani. Dacă aflăm că un c
 
 ## Modificări
 
-Această versiune a politicii este din 2026-10-28. Când o schimbăm în mod important, îți cerem să o citești din nou la următoarea deschidere a aplicației.
+Această versiune a politicii este din 2026-10-29. Când o schimbăm în mod important, îți cerem să o citești din nou la următoarea deschidere a aplicației.
 
 Versiunea curentă este publicată și pe web, la https://emx235.github.io/beauty-docs/politica-confidentialitate.html.
 
